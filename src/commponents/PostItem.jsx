@@ -22,7 +22,7 @@ const PostItem = (props) => {
 				</MyButton>
 
 				<MyButton onClick={() => props.remove(props.post)}>
-					Удалить
+					Remove
 				</MyButton>
 	
 			</div>

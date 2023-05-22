@@ -7,7 +7,7 @@ function PostFilter({filter, setFilter}) {
 	<div>
 	<MyInput 
 	  value={filter.query}
-	  onChange={e => setFilter({... filter, query: e.target.value})}
+	  onChange={e => setFilter({...filter, query: e.target.value})}
 	  placeholder="Search"
 	/>
 	<MySelect 

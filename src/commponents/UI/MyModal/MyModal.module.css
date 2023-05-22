@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;0,600;0,700;0,800;1,500&display=swap');
+
+.myModal {
+	position: fixed;
+	top: 0%;
+	bottom: 0%;
+	right: 0%;
+	left: 0%;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.myModalContent {
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 16px;
+	min-width: 250px;
+	font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+
+.myModal.active{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+
+}
